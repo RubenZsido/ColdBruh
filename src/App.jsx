@@ -17,23 +17,28 @@ function App() {
   return (
     <>
     <nav>
-      <img src="images/logoszoveggel.svg" alt="" />
-    </nav><section id="main">
+        <p><a href="">DIY kávé</a></p>
+        <p><a href="">Vásárlás</a></p>
+        <img src="images/logoszoveggel.svg" alt=""/>
+        <p><a href="">Fenntarthatóság</a></p>
+        <p><a href="">Rólunk</a></p>
+    </nav>
+    <section id="main">
         <div classNameName="content">
           <img className="main-big" src="images/logoszoveggel_feher.svg" alt="" />
           <p className="slogan">Naturally strong</p>
           <p className="points">vegan • sugar free • natural</p>
-          <a className="btn" href="#intrested">I'm intrested</a>
+          <a className="btn" href="#intrested">Érdekel</a>
         </div>
       </section><section id="desc">
         <div className="desc">
           <div className="top-desc">
-            <p>What is</p>
+            <p>Mi az a</p>
             <p className="brandname">ColdBruh?</p>
           </div>
-          <p> Introducing Hungary's first cold brew startup idea, offering a naturally high-caffeine beverage with no sugar. Our
-            vegan-friendly cold brew embraces blockchain technology for transparency and trust in the coffee industry.
+          <p> Bemutatjuk Magyarország első cold brew startup ötletét, amely egy természetesen magas koffeintartalmú, cukor nélküli italt kínál.
           </p>
+          <p>Maradjon velünk az izgalmas frissítésekért, és legyen az elsők között, akik élvezhetik a cold brew egyedülálló élményét.</p>
           <div className="triangle"></div>
         </div>
 
@@ -41,40 +46,40 @@ function App() {
       <section id="perks">
         <div className="card">
           <img className="card-img" src="images/radix-icons_lightning-bolt.svg" alt="" />
-          <p className="card-title">Energy</p>
-          <p className="card-desc">Naturally high caffeine content
-            40mg / 100ml</p>
+          <p className="card-title">Energia</p>
+          <p className="card-desc">Természetesen magas koffein tartalom
+            (40mg / 100ml)</p>
         </div>
         <div className="card">
           <img className="card-img" src="images/Group 13.svg" alt="" />
           <p className="card-title">Blockchain</p>
-          <p className="card-desc">For transparency and trust</p>
+          <p className="card-desc">Lekövethetőségért</p>
         </div>
         <div className="card">
           <img className="card-img" src="images/iconoir_vegan.svg" alt="" />
-          <p className="card-title">Natural</p>
-          <p className="card-desc">Vegan, gluten free, sugar free and 100% natural</p>
+          <p className="card-title">Természetes</p>
+          <p className="card-desc">Vegán, glutén mentes, cukormentes és 100% természetes</p>
         </div>
         <div className="card">
           <img className="card-img" src="images/carbon_chart-area-smooth.svg" alt="" />
-          <p className="card-title">Smooth texture</p>
-          <p className="card-desc">Smooth and cold as it should be</p>
+          <p className="card-title">Krémes hatás</p>
+          <p className="card-desc">Krémes és hideg, ahogy lennie kell</p>
         </div>
         <div className="bottom"></div>
       </section><section id="intrested">
         <div className="container">
-          <p className="intrested-big">Intrested?</p>
+          <p className="intrested-big">Légy az elsők között</p>
           <form action="">
             <div className="input-outer"><img src="images/sms 1.svg" alt=""/>
             <input
       type="email"
       onChange={(e) => setData(e.target.value)}
       value={data}
-      placeholder="example@gmail.com"
+      placeholder="valami@gmail.com"
     ></input>
             </div>
             <button type="submit" onClick={handleSubmit}>
-            I'm intrested
+            Érdekel
     </button>
             </form>
             </div>
