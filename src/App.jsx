@@ -17,11 +17,11 @@ function App() {
   return (
     <>
     <nav>
-        <p><a href="">DIY kávé</a></p>
-        <p><a href="">Vásárlás</a></p>
+        <p><a href="#intrested">DIY kávé</a></p>
+        <p><a href="#intrested">Vásárlás</a></p>
         <img src="images/logoszoveggel.svg" alt=""/>
-        <p><a href="">Fenntarthatóság</a></p>
-        <p><a href="">Rólunk</a></p>
+        <p><a href="#intrested">Fenntarthatóság</a></p>
+        <p><a href="#intrested">Rólunk</a></p>
     </nav>
     <section id="main">
         <div classNameName="content">
